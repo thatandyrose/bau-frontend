@@ -8,6 +8,8 @@ import 'bootstrap/dist/css/bootstrap.min.css'
 import 'moment'
 import 'lodash'
 
+import 'font-awesome/css/font-awesome.css'
+
 window.moment = require('moment')
 
 Vue.config.productionTip = false
