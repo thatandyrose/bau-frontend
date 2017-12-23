@@ -2,7 +2,7 @@
 
 > Visit app at: http://bau-frontend.surge.sh
 
-## dev Summary
+## dev summary
 
 My aim with the app was to really stay true to the lean principles of an MVP. That is, make a minimum thing that feels somewhat complete, as opposed to an ambitious thing that feels half done.
 
@@ -21,7 +21,7 @@ The main issues with the finished product are:
 
 More details to follow...
 
-## dev Approach
+## dev approach
 
 I took a UX approach to this project. Meaning I started by playing around with the UI with no backend at all. I simply called fake methods and mocked repsonses I thought I would need on the frontend, and by doing this I started to understand how my backend would have to behave and serve the user facing app.
 
