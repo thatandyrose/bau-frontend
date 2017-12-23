@@ -2,7 +2,7 @@
 
 > Visit app at: http://bau-frontend.surge.sh
 
-## dev Summary
+## dev summary
 
 My aim with the app was to really stay true to the lean principles of an MVP. That is, make a minimum thing that feels somewhat complete, as opposed to an ambitious thing that feels half done.
 
