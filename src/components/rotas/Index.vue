@@ -15,7 +15,7 @@
             p(v-if="isLoading")
               button.bau-btn thinking about it... <i class="fa fa-circle-o-notch fa-spin" aria-hidden="true"></i>
             p(v-else="")
-              button.bau-btn(@click="createRotaAssignmentsForNextWeek()") Assign developers {{isCurrentDateToday ? "for today" : "for the " + date.format("Do")}} <span v-if="daysWithoutAssignments.length > 1">and the other {{daysWithoutAssignments.length}} days</span>
+              button.bau-btn(@click="createRotaAssignmentsForNextWeek()") Assign developers {{isCurrentDateToday ? "for today" : "for the " + date.format("Do")}} <span v-if="daysWithoutAssignments.length > 1">and the other {{daysWithoutAssignments.length - 1}} days</span>
           template(v-else="")
             p <span class="h1">😎</span> <strong>Phew!</strong>
             p We've got some <strong>heroes</strong> {{isCurrentDateToday ? "for today" : "for the " + date.format("Do")}}
