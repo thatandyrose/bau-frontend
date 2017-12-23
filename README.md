@@ -2,6 +2,8 @@
 
 > A Vue.js project
 
+> Visit app at: http://bau-frontend.surge.sh
+
 ## Build Setup
 
 ``` bash
